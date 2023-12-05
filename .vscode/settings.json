@@ -1,0 +1,29 @@
+{
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/static": true
+  },
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".jsx",
+      ".vue",
+      ".scss"
+    ]
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "js",
+    "vue-html": "html"
+  },
+  "stylelint.enable": true,
+  "stylelint.validate": ["css", "less", "scss", "vue", "sass", "html"],
+  "stylelint.autoFix": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all"
+}
