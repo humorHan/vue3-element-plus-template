@@ -28,5 +28,5 @@ module.exports = {
     'no-descending-specificity': null,
     'value-list-comma-newline-after': null,
     'no-duplicate-selectors': null
-  }
+  },
 };
